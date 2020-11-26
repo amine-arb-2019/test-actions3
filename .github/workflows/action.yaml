@@ -17,11 +17,11 @@ jobs:
        id: String-comment-check
        uses: amine-arb-2019/js-action@v1.1
        with:
-         milliseconds: 1000
+         github-token: '${{ secrets.GITHUB_TOKEN }}'
+         string-list: '@graalvmbot, signed' 
        #uses: amine-arb-2019/test-action-2@v1.12
        #with:
-        #github-token: '${{ secrets.GITHUB_TOKEN }}'
-        #string-list: '@graalvmbot, signed'  
+ 
             
           
           
