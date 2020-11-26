@@ -15,7 +15,7 @@ jobs:
     steps:
      - name: Check PR comments contain string
        id: String-comment-check
-       uses: amine-arb-2019/js-action@v1.1
+       uses: amine-arb-2019/js-action@v1.2
        with:
          github-token: '${{ secrets.GITHUB_TOKEN }}'
          string-list: '@graalvmbot, signed' 
