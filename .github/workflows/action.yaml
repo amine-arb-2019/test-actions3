@@ -13,8 +13,9 @@ jobs:
        with:
          github-token: '${{ secrets.GITHUB_TOKEN }}'
          string-list: '@graalvmbot, signed' 
-       #uses: amine-arb-2019/test-action-2@v1.12
-       #with:
+       env:
+           repo_name: '${{github.repository }}'
+           repo_owner: '${{github.repository_owner}}'
  
             
           
