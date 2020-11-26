@@ -15,7 +15,7 @@ jobs:
     steps:
      - name: Check PR comments contain string
        id: String-comment-check
-       uses: amine-arb-2019/test-action-2@v1.3
+       uses: amine-arb-2019/test-action-2@v1.4
        with:
         label-name-to-watch-for: '@graalvmbot, signed'  
             
