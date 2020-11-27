@@ -16,8 +16,10 @@ jobs:
        env:
            repo_name: '${{github.repository }}'
            repo_owner: '${{github.repository_owner}}'
- 
-            
+           slack_webook: '${{secrets.SLACK_WEBHOOK }}'
+           slack_channel: '${{secrets.SLACK_CHANNEL}}'
+           slack_message_template: '${{secrets.SLACK_MESSAGE_TEMPLATE}}'
+      
           
           
   
